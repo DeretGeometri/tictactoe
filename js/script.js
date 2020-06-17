@@ -53,9 +53,9 @@ boards.forEach(function (board) {
       (kotakTujuh.innerHTML == `x` &&
         kotakDelapan.innerHTML == `x` &&
         kotakSembilan.innerHTML == `x`) ||
-      (kotakTujuh.innerHTML == `x` &&
-        kotakDelapan.innerHTML == `x` &&
-        kotakSembilan.innerHTML == `x`)
+      (kotakTujuh.innerHTML == `o` &&
+        kotakDelapan.innerHTML == `o` &&
+        kotakSembilan.innerHTML == `o`)
     ) {
       game++;
       console.log(game);
@@ -68,9 +68,9 @@ boards.forEach(function (board) {
       (kotakSatu.innerHTML == `x` &&
         kotakLima.innerHTML == `x` &&
         kotakSembilan.innerHTML == `x`) ||
-      (kotakSatu.innerHTML == `x` &&
-        kotakLima.innerHTML == `x` &&
-        kotakSembilan.innerHTML == `x`)
+      (kotakSatu.innerHTML == `o` &&
+        kotakLima.innerHTML == `o` &&
+        kotakSembilan.innerHTML == `o`)
     ) {
       game++;
       console.log(game);
@@ -83,9 +83,9 @@ boards.forEach(function (board) {
       (kotakTiga.innerHTML == `x` &&
         kotakLima.innerHTML == `x` &&
         kotakTujuh.innerHTML == `x`) ||
-      (kotakTiga.innerHTML == `x` &&
-        kotakLima.innerHTML == `x` &&
-        kotakTujuh.innerHTML == `x`)
+      (kotakTiga.innerHTML == `o` &&
+        kotakLima.innerHTML == `o` &&
+        kotakTujuh.innerHTML == `o`)
     ) {
       game++;
       console.log(game);
@@ -98,9 +98,9 @@ boards.forEach(function (board) {
       (kotakDua.innerHTML == `x` &&
         kotakLima.innerHTML == `x` &&
         kotakDelapan.innerHTML == `x`) ||
-      (kotakDua.innerHTML == `x` &&
-        kotakLima.innerHTML == `x` &&
-        kotakDelapan.innerHTML == `x`)
+      (kotakDua.innerHTML == `o` &&
+        kotakLima.innerHTML == `o` &&
+        kotakDelapan.innerHTML == `o`)
     ) {
       game++;
       console.log(game);
@@ -113,9 +113,9 @@ boards.forEach(function (board) {
       (kotakSatu.innerHTML == `x` &&
         kotakEmpat.innerHTML == `x` &&
         kotakTujuh.innerHTML == `x`) ||
-      (kotakSatu.innerHTML == `x` &&
-        kotakEmpat.innerHTML == `x` &&
-        kotakTujuh.innerHTML == `x`)
+      (kotakSatu.innerHTML == `o` &&
+        kotakEmpat.innerHTML == `o` &&
+        kotakTujuh.innerHTML == `o`)
     ) {
       game++;
       console.log(game);
