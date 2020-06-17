@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  place-content: center;
+}
+
+.board-games {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.board-games > div {
+  border: 3px solid black;
+  font-size: 2em;
+  line-height: 155px;
+  text-align: center;
+}
